@@ -1,0 +1,85 @@
+
+  /* css */
+body, html { 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.container, .row, .col, #top-header, #mid-header { 
+    max-width: 110%; 
+}
+#top-header {
+    width: 100%;
+    font-weight: bold;
+    background-color: black;
+}
+#top-header h5, span{
+    color:#fff;
+}
+#top-header span:hover{
+    color:red;
+     transition: all 0.3s ease;
+}
+#top-header h5:hover{
+    color:red;
+    transition: all 0.3s ease;}
+#mid-header {
+    display: flex;
+    border-top: 1px solid #f2e0e0  ;
+}
+
+#mid-header ul li {
+    margin-left: 10px;
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+    color:black;
+
+}
+#mid-header ul li:hover{
+    color:red;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+#mid-header ul {
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#icon-header {
+    display: flex;
+    position: relative;
+    top: 30px;
+    /* right: 70px; */
+}
+#logo img {
+    max-width: 200px; 
+    max-height: 100px; 
+    
+}
+#icon-header span {
+    padding: 10px;
+}
+#icon-header span:hover{
+    color: red;
+    transition: 0.3s ease;
+}
+#icon-header .bi-cart4 {
+    
+    color: black;
+}
+#icon-header .bi-person-circle {
+    font-size:26px;
+    color: black;
+
+}
+
